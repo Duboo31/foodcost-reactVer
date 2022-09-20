@@ -1,0 +1,61 @@
+.wrap {
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 10px;
+}
+.headerInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: .7rem 1rem;
+  cursor: pointer;
+
+}
+.img {
+  width: 40px;
+  height: 40px;
+  background: rgb(218, 164, 164);
+  border-radius: 35px;
+  margin-right: 1rem;
+}
+.clickBox h4 {
+  font-size: 1.2rem;
+}
+.clickBox div {
+  color: gray;
+  font-weight: bold;
+}
+.detail {
+  padding: 1rem;
+  transition: all .5s;
+  visibility: visible;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.hide {
+  visibility: hidden;
+  height: 0;
+  transition: all .3s;
+  display: flex;
+  flex-flow: column nowrap;
+  opacity: 0;
+}
+.detailInfo {
+  margin-bottom: .5rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+.tagBox {
+  display: flex;
+  justify-content: space-between;
+}
+.aTag {
+  text-align: center;
+  width: 48%;
+  padding: .3rem 1rem;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid black;
+  color: black;
+}
